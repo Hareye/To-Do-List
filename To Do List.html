@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+
+<head>
+
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1">
+    <title>
+        To Do List
+    </title>
+
+    <link rel = "stylesheet" type = "text/css" href = "public/To Do List.css" />
+
+    <script src = "https://code.jquery.com/jquery-3.4.1.min.js" integrity = "sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin = "anonymous"></script>
+    <script type = "text/javascript" src = "public/To Do List.js"></script>
+
+    <body>
+
+        <h1 id = "h1" class = "login" style = "position: absolute; left: 50%; top: 28%; z-index: 1; font-size: 40px; display: initial; transform: translate(-50%, -50%)">
+            Login
+        </h1>
+
+        <h1 id = "h2" class = "list" style = "position: absolute; left: 880px; top: 20px; z-index: 1; display: none">
+            To Do List
+        </h1>
+
+        <h1 id = "newUser" style = "position: absolute; left: 475px; top: 25px; z-index: 1; display: none; font-size: 16px; color: red">
+            Created new account.
+        </h1>
+
+        <h1 id = "passwordError" class = "error" style = "position: absolute; left: 855px; top: 440px; z-index: 1; display: none; font-size: 16px; color: red">
+            Your password is incorrect.
+        </h1>
+
+        <h1 id = "editError" style = "position: absolute; left: 500px; top: 255px; z-index: 1; display: none; font-size: 16px">
+            You can only edit one item at a time.
+        </h1>
+
+        <div id = "loginBox" class = "login">
+
+            
+
+        </div>
+
+        <div id = "userDiv" class = "login" style = "position: absolute; left: 50%; top: 40%; display: initial; transform: translate(-50%, -50%)">
+
+            <input type = "text" id = "username" value = "Username" onclick = "this.value = ''"
+            style = "width: 250px; height: 30px; font-family: sans-serif">
+
+        </div>
+
+        <div id = "passDiv" class = "login" style = "position: absolute; left: 50%; top: 44%; display: initial; transform: translate(-50%, -50%)">
+
+            <input type = "text" id = "password" value = "Password" onclick = "this.value = ''"
+            style = "width: 250px; height: 30px; font-family: sans-serif">
+
+        </div>
+
+        <div id = "loginDiv" class = "login" style = "position: absolute; left: 50%; top: 54%; display: initial; transform: translate(-50%, -50%)">
+        
+            <button id = "loginButton" style = "width: 100px; height: 30px; font-size: 20px; font-family: sans-serif">Login</button>
+
+        </div>
+
+        <div id = "listBox" class = "list" style = "display: none">
+
+
+
+        </div>
+
+        <div id = "titleDiv" class = "list" style = "position: absolute; left: 860px; top: 100px; display: none">
+
+            <input type = "text" id = "title" value = "Title" onclick = "this.value = ''"
+            style = "width: 200px; height: 20px; font-size: 20px; font-family: sans-serif">
+
+        </div>
+
+        <div id = "descDiv" class = "list" style = "position: absolute; left: 560px; top: 150px; display: none">
+
+            <textarea type = "text" id = "desc" name = "Description" value = "Description" cols = "40" rows = "2" onclick = "this.value = ''"
+            style = "width: 800px; height: 80px; font-size: 20px; font-family: sans-serif">Description</textarea>
+    
+        </div>
+
+        <div id = "submitDiv" class = "list" style = "position: absolute; left: 910px; top: 260px; display: none">
+        
+            <button id = "listButton" style = "width: 100px; height: 30px; font-size: 20px; font-family: sans-serif">Add</button>
+
+        </div>
+
+        <div id = "logOff" class = "list" style = "position: absolute; left: 1350px; top: 30px; display: none">
+
+            <button id = "signOut" type = "button" style = "width: 100px; height: 30px; font-size: 20px; font-family: sans-serif">Sign Out</button>
+
+        </div>
+
+        <ul id = "List" class = "list" style = "display: none">
+
+            
+
+        </ul>
+
+    </body>
+
+    <script>
+
+    </script>
+
+</head>
+
+</html>

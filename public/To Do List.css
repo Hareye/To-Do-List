@@ -1,0 +1,118 @@
+body {
+    background-image: linear-gradient(120deg, #3498db, #8e44ad); 
+    font-family: sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+    
+ul li {
+    position: relative;
+    left: 560px;
+    top: 350px;
+    padding: 12px 20px 12px 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: #f1f1f1;
+    width: 750px;
+    height: 23px;
+    border-radius: 10px;
+}
+
+#loginBox {
+    width: 360px;
+    background: #f1f1f1;
+    height: 480px;
+    padding: 80px 40px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#userDiv {
+    border-bottom: 2px solid #adadad;
+    position: relative;
+}
+
+#username {
+    font-size: 20px;
+    color: #333;
+    border: none;
+    width: 100%;
+    outline: none;
+    background: none;
+    padding: 0 5px;
+    height: 50px;
+}
+
+#passDiv {
+    border-bottom: 2px solid #adadad;
+    position: relative;
+}
+
+#listBox {
+    width: 1000px;
+    background: #f1f1f1;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 460px;
+    top: 20px;
+    padding: 80px 40x;
+}
+
+#password {
+    font-size: 20px;
+    color: #333;
+    border: none;
+    width: 100%;
+    outline: none;
+    background: none;
+    padding: 0 5px;
+    height: 50px;
+}
+
+.remove {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+    color: red;
+}
+
+.remove:hover {
+    background-color: black;
+    color: white;
+}
+
+.edit {
+    position: absolute;
+    right: 45px;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.inputTitle {
+    position: absolute;
+    left: 15px;
+    width: 150px;
+    height: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.inputDesc {
+    position: absolute;
+    left: 185px;
+    width: 465px;
+    height: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
